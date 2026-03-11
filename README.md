@@ -11,7 +11,7 @@ E-commerce platforms and luxury resellers need to automatically flag low-quality
 ## Models
 
 | Model | Architecture | ROC-AUC | 
-|---|---|---|---|
+|---|---|---|
 | Isolation Forest | ResNet50 features + IsolationForest | 0.637 | 
 | Autoencoder | ResNet50 encoder + transposed conv decoder | 0.701 | 
 | VAE | ResNet50 encoder + probabilistic latent space (256-dim) | 0.678 | 
