@@ -10,13 +10,13 @@ E-commerce platforms and luxury resellers need to automatically flag low-quality
 
 ## Models
 
-| Model | Architecture | ROC-AUC | F1 Score |
+| Model | Architecture | ROC-AUC | 
 |---|---|---|---|
-| Isolation Forest | ResNet50 features + IsolationForest | 0.637 | — |
-| Autoencoder | ResNet50 encoder + transposed conv decoder | 0.701 | — |
-| VAE | ResNet50 encoder + probabilistic latent space (256-dim) | 0.678 | — |
-| Attention Autoencoder | Autoencoder + self-attention between encoder/decoder | **0.733** | — |
-| **Ensemble (4 models)** | Min-max normalized score averaging | **0.746** | **0.485** |
+| Isolation Forest | ResNet50 features + IsolationForest | 0.637 | 
+| Autoencoder | ResNet50 encoder + transposed conv decoder | 0.701 | 
+| VAE | ResNet50 encoder + probabilistic latent space (256-dim) | 0.678 | 
+| Attention Autoencoder | Autoencoder + self-attention between encoder/decoder | **0.733** |
+| **Ensemble (4 models)** | Min-max normalized score averaging | **0.746** |
 
 ## Anomaly Types Detected
 
